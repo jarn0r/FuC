@@ -1,0 +1,17 @@
+5.5 Ausblick
+
+Bereits zum Abschluss des Projekts sind bereits weitere Erweiterungsmöglichkeiten aufgefallen.
+Zunächst der grundliegende Stromnetz verbessern. Bisher wird Leistung von 2 verschiedenen Stromquellen bezogen, was industriell grauenvoll ist.
+Als Lösung wäre es möglich zum Beispiel eine eigene Platine zu entwerfen, die ein größeren Stromfluss zulässt und diesen dann auf die jeweiligen Akteuren verteilt.
+Daher mit eingehend wäre es dann auch gut, wenn man das Kabelmanagement verbessert, da die Kabel relativ locker liegen und jederzeit aus dem Breadboard rauskommen könnten. auch da eventuell eine feste Platine entwerfen, die das mehr Strukturiert und die Wege der Adern verkürzt.
+
+Bei Design Verbesserungen könnte man auch das Design des Ventilator Konstrukts in Betracht ziehen. Der wurde 3D gedruckt, jedoch ist der noch nicht optimal, da die benötigten Sensoren nicht in das Modell perfekt passen, da die etwas wackelig sind.
+
+Da das Projekt sehr flexible ist was Erweiterungen anbetrifft, kann man viele weiter Sensoren angebracht werden, insofern genügend Strom und BUS Kapazitäten vorliegen(Der Arduino bietet jeweils nur 1xSPI, 1xUART und 1xI2C an).
+So könnten noch Sensoren wie ein NFC Lesegerät, Abstandssensor und viele mehr angebracht werden und der Code flexible Erweitert werden.
+
+Falls man nur bisher genutzte Optionen hat, kann man auch diese Erweitern mit User Profilen, wo die User selbst einstellen können wie intensiv der Ventilator sich dreht, ohne viele Knöpfe drücken zu müssen.
+
+Wenn man sich industrielle Ventilatoren ansieht, kann man erkennen das diese sich auch drehen können, was bei unserem nicht der Fall ist. Auch das kann mit genügend Strom Kapazität hinzugefügt werden wobei das Gehäuse angepasst werden müsste.
+
+Mit Sicherheit kann man mit einer gezielten MCU(Mikrocontroller) eine bessere Lösung erzielen, da man dann mehr BUS Systeme, Wireless Möglichkeiten und Stromeinsparungen haben kann.
